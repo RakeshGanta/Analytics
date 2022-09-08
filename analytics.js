@@ -24,7 +24,7 @@ analytics.load = function(callback) {
   var script = document.createElement('script');
   script.async = true;
   script.type = 'text/javascript';
-  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/analytics.js/2.9.1/analytics.min.js';     // <--- your url here
+  script.src = 'https://cdn.jsdelivr.net/gh/rakeshgantab2/forkedAnalytics@latest/analytics.min.js';     // <--- your url here
   if (script.addEventListener) {
     script.addEventListener('load', function(e) {
       if (typeof callback === 'function') {
