@@ -47,7 +47,9 @@ analytics.load(function() {
     'Google Analytics': {
        trackingId: 'G-0NXMDPPRLV'
      },
-     
+    'Segment.io':{
+      apiKey:''
+    },
   });
 
   // Loop through the interim analytics queue and reapply the calls to their
