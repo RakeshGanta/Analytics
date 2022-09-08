@@ -45,7 +45,7 @@ analytics.load = function(callback) {
 analytics.load(function() {
   analytics.initialize({
     'Google Analytics': {
-       trackingId: 'G-8QX1BKTPDK'
+       trackingId: 'G-0NXMDPPRLV'
      },
      
   });
